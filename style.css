@@ -27,3 +27,14 @@ ul{
     align-items: center;
     font-size:12px;
 }
+.desc{
+    display:flex;
+    justify-content: center;
+    padding:60px 100px;
+    margin:0;
+
+}
+.desc-text{
+    max-width: 300px;
+
+}
