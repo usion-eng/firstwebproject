@@ -71,14 +71,19 @@ button {
 #information{
     width: 100%;
 }
-.info {
+#information .info {
     max-width:200px;
+    font-size: 18px;
+    text-align: center;
 }
 #information .header{
     font-size: 36px;
     font-weight:800;
     color:#1F2937;
+    
     justify-content: center;
+    margin-top: 50px;
+    margin-bottom:70px;
 }
 .container{
     display:flex;
@@ -86,7 +91,11 @@ button {
     justify-content: space-between;
     margin: 0 auto;
     align-items: end;
+    
 }
 .imgbox{
     width:200px;
+    border: solid;
+    border-color:#3173df;
+    border-radius: 10px;
 }
